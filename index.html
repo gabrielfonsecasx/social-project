@@ -3,15 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./__MACOSX/pacote-d013/._favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./pacote-d013/favicon.ico" type="image/x-icon">
     <title>Document</title>
     <style>
-        img{
-            border: 1px solid black;
+        body{
+            background-image: url(./pacote-d013/imagens/fundo-madeira.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 98vh;
+            position: relative;
+        }
+        div{
+            background-image: url(./pacote-d013/imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 487px;
+            height: 947px;
+
+            transform: translate(-50%, -50%);
+        }
+        iframe{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 706px;
+
+            transform: translate(-50%, -50%);
+        }
+        a{
+            position: relative;
+            z-index: 20;
+           
+        }
+        div.yt{
+            background-image: url(./pacote-d013/imagens/logo-youtube.jpg);
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            top: 33%;
+            left: 95%;
+             pointer-events: none;
+        }
+        div.tw{
+            background-image: url(./pacote-d013/imagens/logo-twitter.jpg);
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            top: 26%;
+            left: 95%;
+             pointer-events: none;
+        }
+        div.ig{
+            background-image: url(./pacote-d013/imagens/logo-instagram.jpg);
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            top: 19%;
+            left: 95%;
+             pointer-events: none;
+        }
+        div.git{
+            background-image: url(./pacote-d013/imagens/logo-github.jpg);
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            top: 12%;
+            left: 95%;
+             pointer-events: none;
+        }
+        div.fb{
+            background-image: url(./pacote-d013/imagens/logo-facebook.jpg);
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            top: 5%;
+            left: 95%;
         }
     </style>
 </head>
 <body>
-    <img src="./__MACOSX/pacote-d013/imagens/._frame-iphone.png" alt="iphone-png">
+    <div>
+        <iframe name="erival" src="./pacote-d013/imagens/tela-home.jpg" frameborder="0">
+
+        </iframe>
+    </div>
+        <div class="yt"><a target="erival" href="./pacote-d013/imagens/tela-youtube.png"></a></div>
+        <div class="tw"><a target="erival" href="./pacote-d013/imagens/tela-twitter.jpg"></a></div>
+        <div class="ig"><a target="erival" href="./pacote-d013/imagens/tela-instagram.jpg"></a></div>
+        <div class="git"><a target="erival" href="./pacote-d013/imagens/tela-github.jpg"></a></div>
+        <div class="fb"><a target="erival" href="./pacote-d013/imagens/tela-facebook.jpg"></a></div>
 </body>
 </html>
